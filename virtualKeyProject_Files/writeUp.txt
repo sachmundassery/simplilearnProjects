@@ -1,0 +1,34 @@
+run the java application
+
+select the options displayed on the window
+1. display all files
+2. show file options
+3. quit
+
+display all files
+it displays all the files in the directory.
+
+show file options
+on clicking, the following options will be displayed
+	1. add file
+	2. delete file
+	3. search file
+	4. return to menu
+
+add file. 
+user needs to type the filename along with the extention. then the file will be created if the file doesnt exists,
+otherwise it notifies the user saying that the file already exists.
+
+delete file.
+user needs to type the filename along with the extention. then the file will be deleted if the file exists,
+otherwise it notifies the user saying that the file does not exists.
+
+search file
+user needs to type the filename along with the extention. the program notifies the user that the file is found if it exists,
+otherwise it notifies the user saying that the file not found.
+
+return to menu
+it takes users back to the main menu
+
+quit
+exits from the application.
