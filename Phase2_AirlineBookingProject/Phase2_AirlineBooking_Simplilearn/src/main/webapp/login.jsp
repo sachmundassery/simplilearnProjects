@@ -27,14 +27,9 @@
 		String userPsw = request.getParameter("userPsw");
 		Boolean userValidate = login.personLogin(loginType, userEmail, userPsw);
 		if (userValidate == true) {
-			
-			
-			
+
 			/* request.getSession().setAttribute("userEmail", userEmail); */
-			
-			
-			
-			
+
 			session.setAttribute("userEmail", userEmail);
 			response.sendRedirect("flightSearch.jsp");
 		} else {
