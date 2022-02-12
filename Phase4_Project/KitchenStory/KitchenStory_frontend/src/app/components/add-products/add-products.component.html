@@ -1,0 +1,28 @@
+<div class="container" style="width: 50%;">
+    <form (ngSubmit)="saveProduct()">
+        <div class="form-group">
+            <input type="text" name="product" class="form-control" [(ngModel)]="product.category"
+                placeholder="Enter the Product category">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="item" class="form-control" [(ngModel)]="product.item"
+                placeholder="Enter the item ">
+        </div>
+
+        <div class="form-group">
+            <textarea type="text" name="description" [(ngModel)]="product.description"
+                placeholder="Enter the Description" class="form-control"></textarea>
+        </div>
+
+        <div class="form-group">
+            <input type="number" name="amount" class="form-control" [(ngModel)]="product.price"
+                placeholder="Enter the price ">
+        </div>
+        <button type="submit" class="btn btn-primary">Save / Update</button>
+
+
+    </form>
+    <br>
+    <button *ngIf="product.id" (click)="deleteProduct(product.id)" class="btn btn-danger">Delete</button>
+</div>

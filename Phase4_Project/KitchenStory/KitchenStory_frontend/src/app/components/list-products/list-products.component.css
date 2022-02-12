@@ -1,0 +1,37 @@
+.productsBody {
+  background: linear-gradient(to right, #555c6e, #1a3366);
+  min-height: 100vh;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+img {
+  height: 170px;
+  width: 140px;
+}
+h2,
+h4,
+h5,
+p {
+  color: beige;
+}
+
+/*  */
+a {
+  background-color: rgb(50, 112, 54);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}

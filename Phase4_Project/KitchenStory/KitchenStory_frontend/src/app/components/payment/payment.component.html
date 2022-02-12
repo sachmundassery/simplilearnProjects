@@ -1,0 +1,35 @@
+<div class="paymentBody">
+    <div class="container p-0">
+        <div class="card px-4">
+            <h2 style="text-align: center;">Payment Details</h2>
+            <div class="row gx-3">
+                <div class="col-12">
+                    <div class="d-flex flex-column">
+                        <input class="form-control mb-3" type="text" placeholder="Name" required>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-column">
+                        <input class="form-control mb-3" type="text" placeholder="Card Number" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-column">
+                        <input class="form-control mb-3" type="text" placeholder="Expiry - MM/YYYY" required>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-column">
+                        <input class="form-control mb-3 pt-2 " type="password" placeholder="CVV/CVC - ***" required>
+                    </div>
+                </div>
+                <div class="col-12">
+
+                    <input class="btn btn-primary mb-3" type="submit" onclick="alert('Product ordered successfully !!')"
+                        value="Pay Rs. {{product.price}}" style="text-align: center; justify-content: center;">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

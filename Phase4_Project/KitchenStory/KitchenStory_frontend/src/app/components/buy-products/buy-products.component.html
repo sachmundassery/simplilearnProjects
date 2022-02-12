@@ -1,0 +1,15 @@
+<div class="productBody" style="padding: 2rem;">
+    <div class="container" style="margin: 0px auto;">
+        <div class="card" style="background-color: #2e2e30;">
+            <div class="card-header">
+                <h4>{{product.category}}</h4>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">{{product.item}}</h3>
+                <p class="card-text">{{product.description}}</p>
+                <h5>{{product.price}}</h5>
+                <a routerLink="/payment//{{product.id}}" class="btn btn-primary">Proceed to payment</a>
+            </div>
+        </div>
+    </div>
+</div>

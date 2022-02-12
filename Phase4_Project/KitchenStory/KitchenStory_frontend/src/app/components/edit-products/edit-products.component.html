@@ -1,0 +1,36 @@
+<div class="container">
+    <br>
+    <a routerLink="/addProducts">Add Expense</a>
+    <br>
+    <br>
+    <br>
+    <h3 style="text-align: center;">Master List of Products</h3>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <br>
+        <tbody ng-repeat="product in products">
+            <tr *ngFor="let product of products">
+
+                <td scope="row">{{product.category}}</td>
+                <td>{{product.item}}</td>
+                <td>{{product.description}}</td>
+                <td>{{product.price}}</td>
+                <td>
+                    <a routerLink="/editProducts/{{product.id}}">Edit</a>
+
+                </td>
+
+
+            </tr>
+            <br>
+        </tbody>
+    </table>
+</div>

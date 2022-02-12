@@ -1,0 +1,16 @@
+a {
+  background-color: rgb(50, 112, 54);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a:active {
+  background-color: black;
+}
